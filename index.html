@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/thermometer.png">
+</head>
+<body>
+  <div class="container">
+    <form id="converter"  >
+    <div class="main">
+    <h1> 🌡Temperature Converter </h1>
+      <div class="temp">
+          <label >Celsius:</label>
+          <input class="tempname" name="cel" type="number" id="cel">
+          <span>&#8451</span>
+      </div><br>
+        <div class="temp">
+            <label>Fahrenheit:</label>
+            <input class="tempname" name="fah" type="number" id="fahr">
+            <span>&#8457</span>
+        </div><br>
+  
+        <div class="temp">
+            <label>Kelvin :</label>
+            <input class="tempname" name="kel" type="number" id="kel">
+            <span>&#8490</span>
+        </div><br><br>
+        <button class="clearbutton" type="button"  onclick="reset_all()">clear</button>
+        
+        </div>
+      </form>  
+</div>
+
+<script src="script.js"></script>
+  
+</body>
+</html>
